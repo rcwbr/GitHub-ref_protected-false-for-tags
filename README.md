@@ -1,6 +1,6 @@
 # GitHub ref_protected false for tags
 
-This repo demonstrates the (at least documentation) bug due to which github.ref_protected and GITHUB_REF_PROTECTED are always `false` in GitHub Actions jobs, even for tags that are protected.
+This repo demonstrates the (at least documentation) bug due to which github.ref_protected and GITHUB_REF_PROTECTED are always `false` in GitHub Actions jobs, even for tags that are protected. The bug was [raised in GitHub Community disussions here](https://github.com/orgs/community/discussions/142985)
 
 ## Docs
 
@@ -47,4 +47,4 @@ The value for `ref_protected` appears as false, despite the matching rule as can
 
 ## History
 
-This behavior seems to date back at least several years, as it was raised in a [comment on a public beta in 2022](https://github.com/orgs/community/discussions/10906#discussioncomment-3915816) and the subject of [a discussions post in 2023](https://github.com/orgs/community/discussions/66588).
+This behavior seems to date back at least several years, as it was raised in a [comment on a public beta in 2022](https://github.com/orgs/community/discussions/10906#discussioncomment-3915816) and the subject of [a discussions post in 2023](https://github.com/orgs/community/discussions/66588). After creating this repo, it was shared to [a community bug report discussion](https://github.com/orgs/community/discussions/142985).
