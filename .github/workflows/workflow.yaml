@@ -1,0 +1,10 @@
+name: Test workflow
+on: push
+jobs:
+  env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Env
+        run: |
+          env
+          echo "github.ref_protected: ${{ github.ref_protected }}"
