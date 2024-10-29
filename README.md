@@ -44,3 +44,7 @@ github.ref_protected: false
 The value for `ref_protected` appears as false, despite the matching rule as can be seen from the ruleset page:
 
 <img width="802" alt="Screen Shot 2024-10-29 at 07 29 41" src="https://github.com/user-attachments/assets/f3b97f57-5b52-41bf-b813-13e0180d954a">
+
+## History
+
+This behavior seems to date back at least several years, as it was raised in a [comment on a public beta in 2022](https://github.com/orgs/community/discussions/10906#discussioncomment-3915816) and the subject of [a discussions post in 2023](https://github.com/orgs/community/discussions/66588).
