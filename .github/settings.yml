@@ -8,8 +8,8 @@ rulesets:
       ref_name:
         include:
           - "~ALL"
-          - "*"
-          - "**"
+          - "refs/tags/*"
+          - "refs/tags/**"
         exclude: []
     bypass_actors:
       - actor_id: 5
